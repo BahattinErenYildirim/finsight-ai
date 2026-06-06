@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+
+# Secrets (API keys)
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local database
+*.db
+finsight_dev.db
+
+# Generated outputs
+*_rapor.json
+*_demo_rapor.json
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# pytest
+.pytest_cache/
+
+# accidental local artifacts
+blobs/
+manifests/
+
+.git_backup/
